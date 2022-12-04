@@ -24,7 +24,7 @@ from database.filters_mdb import (
 )
 import logging
 
-logger = logging.getLogger(name)
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
 BUTTONS = {}
